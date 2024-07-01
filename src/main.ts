@@ -17,3 +17,4 @@ bootstrap();
 // npm i -g @nestjs/cli       
 // npm i momen
 // npm i --save class-validator class-transformer
+//git push -u origin main

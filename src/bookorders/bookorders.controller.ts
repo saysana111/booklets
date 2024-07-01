@@ -23,7 +23,7 @@ export class BookordersController {
         return this.bookOrderService.getLastBoughtDateOfAllUser();
     }
     // ระบบรายงานหนังสือที่ถูกขายในแต่ละหมวดหมู่
-    @Get('reportorderbycate')
+    @Get('reportorderbycates')
     getReportOrder(){
         return this.bookOrderService.getReportOrder();
     }
